@@ -98,6 +98,13 @@ def scrape_info():
         print(img_url)
         print("____")
 
+        hemisphere_images[
+            {"title":"Cerberus Hemisphere", "url":"https://astrogeology.usgs.gov//search/map/Mars/Viking/cerberus_enhanced"},
+            {"title": "Schiaparelli Hemisphere", "url":"https://astrogeology.usgs.gov//search/map/Mars/Viking/schiaparelli_enhanced"},
+            {"title": "Syrtis Major Hemisphere ", "url":"https://astrogeology.usgs.gov//search/map/Mars/Viking/syrtis_major_enhanced"},
+            {"title":"Valles Marineris Hemisphere", "url":"https://astrogeology.usgs.gov//search/map/Mars/Viking/valles_marineris_enhanced}"}
+        ]
+
     #Quit browser
     browser.quit()
     
