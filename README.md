@@ -1,4 +1,4 @@
 # web-scraping-challenge
 For this project we were supposed to create a website that would use Chromedriver to access four different websites and gather results. I gathered a news title/article from one site, a featured image from a second, a fact table about Mars from another, gathered images of the Hemispheres from a fourth. All of these were stored as variables that could be accessed when we created a site. Once those variables were stored, I then created a second Python sheet that connected to a NoSQL, MongoDB and created a local website that would create all the scraping and displayed them. 
 
-Unfortunately, I had been having issues with the Flask app that generated the local site and wasn’t able to load the site. I feel confident in my coding that, on another computer, my code would run without errors.
+Unfortunately, I had been having issues with the Flask app that generated the local site and wasn’t able to load the module. It would error out saying that no such module exists, then would show as already installed when I would try to re-install it. I feel confident in my coding that, on another computer, my code would run without errors.
